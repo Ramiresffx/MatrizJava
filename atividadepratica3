@@ -1,0 +1,27 @@
+package TarefaPratica3ex1;
+
+public class TarefaPratica3ex1 {
+
+    public static void main(String[] args) {
+        double[] altura = new double[10];
+        altura[0] = 200;
+        altura[1] = 170;
+        altura[2] = 150;
+        altura[3] = 175;
+        altura[4] = 180;
+        altura[5] = 195;
+        altura[6] = 140;
+        altura[7] = 220;
+        altura[8] = 210;
+        altura[9]= 165;
+        double soma= 0;
+
+        for(int i = 0; i<10;i++){
+            soma+= alturas[i];
+        }           
+        double media = soma / 10;
+        System.out.println("A sua média de altura é: " + media);
+        
+    }
+    
+}
